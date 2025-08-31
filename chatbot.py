@@ -11,7 +11,7 @@ load_dotenv()
 api_key = os.getenv("GROQ_API_KEY")
 
 if not api_key:
-    raise ValueError("❌ GROQ_API_KEY not found in .env file")
+    raise ValueError("GROQ_API_KEY not found in .env file")
 
 def load_documents(path="data/faqs.txt"):
     loader = TextLoader(path)
@@ -41,7 +41,7 @@ def create_qa_chain(vectorstore):
     return chain
 
 def main():
-    print("🤖 FAQ Chatbot (Groq) ready! Type your question or 'exit' to quit.")
+    print("FAQ Chatbot (Groq) ready! Type your question or 'exit' to quit.")
 
     documents = load_documents()
     vectorstore = create_vector_store(documents)
