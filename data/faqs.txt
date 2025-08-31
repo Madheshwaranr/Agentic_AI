@@ -1,0 +1,8 @@
+What is Agentic AI?
+Agentic AI refers to artificial intelligence systems that can take actions autonomously, pursue goals, and exhibit initiative, often making decisions without human intervention.
+
+What is Groq?
+Groq is a hardware and AI inference platform that provides ultra-fast LLM response times using OpenAI-compatible APIs.
+
+How do I build a chatbot?
+To build a chatbot, you can use tools like LangChain, vector databases, embedding models, and a language model backend like OpenAI or Groq.
