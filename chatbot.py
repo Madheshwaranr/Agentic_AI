@@ -50,7 +50,7 @@ def main():
     while True:
         query = input("You: ")
         if query.lower() in ["exit", "quit"]:
-            print("👋 Goodbye!")
+            print("Goodbye!")
             break
 
         response = qa_chain.invoke({"query": query})
